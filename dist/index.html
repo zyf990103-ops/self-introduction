@@ -7,154 +7,140 @@
   <title>赵宇凡 · 个人主页</title>
   <style>
     :root {
-      color-scheme: dark;
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-      background: #070d17;
-      color: #f4f4ed;
-      --muted: #acb8b7;
-      --line: #ffffff24;
-      --accent: #52ffe0;
+      color-scheme: light;
+      --paper: #f8eddb;
+      --ink: #39251e;
+      --muted: #73564a;
+      --line: #c5a37c;
+      --red: #96382a;
+      --serif: "Songti SC", "Noto Serif CJK SC", "SimSun", "STSong", serif;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; }
-    a { color: inherit; text-decoration: none; }
-    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
-    .shell { width: min(1120px, calc(100% - 96px)); margin-inline: auto; }
-    .top, .foot { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-    .top { min-height: 88px; border-bottom: 1px solid var(--line); }
-    .brand { display: flex; align-items: center; gap: 12px; font-size: 14px; font-weight: 650; letter-spacing: .12em; }
-    .brand-mark { display: grid; place-items: center; width: 36px; height: 36px; border: 1px solid #52ffe063; color: var(--accent); border-radius: 50%; font-size: 11px; letter-spacing: 0; }
-    .top nav { display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: flex-end; }
-    .hero-action { margin-top: 30px; }
-    .top a, .foot { font-size: 13px; color: var(--muted); }
-    .top a:hover, .number:hover { color: var(--accent); }
-    .hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 24px; padding-block: 55px; }
-    .eyebrow { display: flex; align-items: center; gap: 11px; margin: 0; font-size: 12px; letter-spacing: .19em; color: var(--accent); }
-    .eyebrow::before { content: ""; width: 24px; height: 1px; background: currentColor; }
-    .greeting { margin: 29px 0 10px; font-size: 20px; color: var(--muted); }
-    h1 { margin: 0; font-size: clamp(58px, 8.1vw, 112px); line-height: 1.13; letter-spacing: -.065em; }
-    .roman { margin: 20px 0 0; color: var(--muted); font-size: 13px; letter-spacing: .26em; }
-    .art { width: 100%; max-width: 510px; justify-self: end; height: auto; display: block; }
-    .intro { padding-block: 32px 62px; border-top: 1px solid var(--line); }
-    .intro h2 { margin: 14px 0 8px; font-size: clamp(30px, 5vw, 48px); letter-spacing: -.04em; }
-    .intro-copy { margin: 0 0 26px; line-height: 1.7; color: var(--muted); }
-    .films { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-    .film { overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: #0d1928; }
-    .film video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #0a0f10; }
-    .film video:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
-    .film-info { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 16px 20px; }
-    .film-info h3 { margin: 0; font-size: 16px; font-weight: 600; }
-    .film-info span { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-    .contact { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; padding: 30px 34px; border: 1px solid var(--line); background: #0d1928; border-radius: 18px; }
-    .contact h2 { font-size: 14px; font-weight: 500; color: var(--muted); margin: 0 0 8px; }
-    .number { font-variant-numeric: tabular-nums; font-size: clamp(26px, 4vw, 40px); font-weight: 630; letter-spacing: -.035em; }
-    .call { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; gap: 12px; padding: 0 20px; border-radius: 8px; background: var(--accent); color: #162012; font-size: 14px; font-weight: 700; }
-    .call:hover { background: #e6ffae; }
-    .foot { min-height: 76px; }
-    @media (max-width: 700px) {
-      .shell { width: calc(100% - 40px); }
-      .top { min-height: 65px; }
-      .hero { grid-template-columns: 1fr; gap: 12px; padding-block: 43px 21px; }
-      .art { max-width: 390px; justify-self: center; }
-      .top nav { gap: 8px 14px; }
-      .intro { padding-block: 26px 36px; }
-      .films { grid-template-columns: 1fr; }
-      .contact { padding: 22px; gap: 18px; }
-      .foot { min-height: 64px; }
-    }
-
-    :root {
-      --mono: ui-monospace, "SF Mono", Consolas, monospace;
-      --line: #31526c;
-      --muted: #abc0ce;
-      --accent: #52ffe0;
-    }
     body {
-      background:
-        radial-gradient(ellipse at 78% 14%, #1447739c, transparent 45%),
-        linear-gradient(#41688329 1px, transparent 1px),
-        linear-gradient(90deg, #41688329 1px, transparent 1px);
-      background-size: auto, 40px 40px, 40px 40px;
+      margin: 0;
+      border-top: 5px solid var(--red);
+      background: radial-gradient(ellipse at 79% 22%, #e4b77d66, transparent 52%),
+        repeating-linear-gradient(8deg, #9a5b2508 0 1px, transparent 1px 5px);
     }
-    .brand, .eyebrow, .roman, .film-info span, .foot { font-family: var(--mono); }
-    .brand-mark { border-radius: 2px; }
-    .hero { padding-block: clamp(44px, 7vw, 92px); }
-    h1 { text-shadow: 0 0 40px #52ffe04f; }
-    .console {
-      margin: 0; min-width: 0; border: 1px solid #396683;
-      background: #081726e8; box-shadow: 0 22px 65px #0008;
+    a { color: inherit; text-decoration: none; }
+    :focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+    .shell { width: min(1080px, calc(100% - 64px)); margin-inline: auto; }
+    .top, .foot, .brand, .top nav { display: flex; align-items: center; gap: 16px; }
+    .top, .foot { justify-content: space-between; }
+    .top { min-height: 76px; border-bottom: 1px solid var(--line); }
+    .brand { font: 700 19px var(--serif); }
+    .brand-mark {
+      display: grid; place-items: center; width: 34px; height: 34px;
+      background: var(--red); color: #fff2dd; outline: 1px solid #fff2dd;
+      outline-offset: -4px; transform: rotate(-5deg);
     }
-    .console-bar {
-      display: flex; justify-content: space-between; gap: 8px;
-      padding: 12px 14px; border-bottom: 1px solid var(--line);
-      color: var(--muted); font: 11px var(--mono);
+    .top nav { flex-wrap: wrap; justify-content: flex-end; }
+    .top a, .foot { font-size: 13px; color: var(--muted); }
+    .top a:hover, .number:hover { color: var(--red); }
+    .hero {
+      display: grid; grid-template-columns: 1fr 1.12fr; align-items: center;
+      gap: clamp(24px, 6vw, 72px); padding-block: clamp(42px, 8vw, 104px);
     }
-    .console-bar span:last-child { color: var(--accent); }
-    .art { max-width: none; }
-    .orbit { transform-origin: 240px 198px; animation: scan 25s linear infinite; }
-    @keyframes scan { to { transform: rotate(360deg); } }
-    .call { color: #071a20; border-radius: 2px; }
-    .call:hover { background: #a0fff0; box-shadow: 0 0 24px #52ffe055; }
-    .film, .contact { border-radius: 2px; }
-    .film:hover, .film:focus-within { border-color: var(--accent); }
-    .film-info { border-top: 1px solid var(--line); }
-    .film-info h3 { flex: 1; }
-    .film-info .clip { color: var(--accent); }
+    h1, h2, h3, .eyebrow, .greeting { font-family: var(--serif); }
+    .eyebrow { display: flex; align-items: center; gap: 12px; margin: 0; color: var(--red); letter-spacing: .12em; font-weight: 700; }
+    .eyebrow::before { content: ""; width: 24px; height: 1px; background: currentColor; }
+    .greeting { margin: 24px 0 8px; color: var(--muted); font-size: 18px; }
+    h1 { margin: 0; font-size: clamp(54px, 9vw, 106px); line-height: 1.08; letter-spacing: -.06em; }
+    .roman { margin: 18px 0 0; font: 12px Georgia, serif; letter-spacing: .28em; color: var(--muted); }
+    .call {
+      display: inline-flex; align-items: center; gap: 18px; min-height: 46px;
+      padding: 0 18px; background: var(--red); color: #fff4e5;
+      font-size: 14px; font-weight: 700;
+    }
+    .call:hover { background: #79271d; }
+    .hero-action { margin-top: 28px; }
+    .scroll {
+      margin: 0; min-width: 0; padding: 8px; border: 1px solid #ad8157;
+      background: #e9d0a9; box-shadow: 0 15px 32px #61371524;
+    }
+    .art { width: 100%; height: auto; display: block; border: 1px solid #bb926c; }
+    .intro { padding-block: 32px 56px; border-top: 3px double var(--line); }
+    .intro h2 { margin: 12px 0 8px; font-size: clamp(32px, 5vw, 52px); }
+    .intro-copy { margin: 0 0 24px; color: var(--muted); line-height: 1.7; }
+    .films { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .film { min-width: 0; border: 1px solid var(--line); background: #fcf3e4; }
+    .film video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #39251e; }
+    .film video:focus-visible { outline-offset: -4px; }
+    .film-info { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
+    .film-info h3 { flex: 1; margin: 0; font-size: 17px; }
+    .film-info span { font-size: 13px; color: var(--muted); }
+    .film-info .clip { color: var(--red); font-family: var(--serif); }
+    .contact {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 18px; padding: 24px; border: 1px solid var(--line); background: #f2dec0;
+    }
+    .contact h2 { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
+    .number { font: clamp(24px, 4vw, 36px) Georgia, serif; }
+    .foot { min-height: 68px; }
     @media (max-width: 700px) {
-      .hero { gap: 24px; }
-      .console { width: 100%; max-width: 480px; }
+      .shell { width: calc(100% - 32px); }
+      .top { min-height: 64px; }
+      .top nav { gap: 8px 12px; }
+      .hero, .films { grid-template-columns: 1fr; }
+      .scroll { width: 100%; max-width: 500px; }
     }
-    @media (prefers-reduced-motion: reduce) {
-      .orbit { animation: none; }
-    }
-    </style>
+  </style>
 </head>
 <body>
   <header class="top shell">
-    <div class="brand"><span class="brand-mark" aria-hidden="true">ZYF</span>赵宇凡</div>
+    <div class="brand"><span class="brand-mark" aria-hidden="true">赵</span>赵宇凡</div>
     <nav aria-label="页面导航"><a href="#intro">自我介绍</a><a href="#contact">联系方式 <span aria-hidden="true">↘</span></a></nav>
   </header>
   <main class="shell">
     <section class="hero" aria-labelledby="name">
       <div>
-        <p class="eyebrow">PROFILE / 01</p>
+        <p class="eyebrow">壹 · 个人小传</p>
         <p class="greeting">你好，我是</p>
         <h1 id="name">赵宇凡</h1>
         <p class="roman" lang="en">ZHAO YUFAN</p>
         <a class="call hero-action" href="#intro">观看自我介绍 <span aria-hidden="true">↓</span></a>
       </div>
-      <figure class="console" aria-hidden="true">
-        <div class="console-bar"><span>ZYF / PROFILE CONSOLE</span><span>● ONLINE</span></div>
-        <svg class="art" viewBox="0 0 480 395" aria-hidden="true" focusable="false">
+      <figure class="scroll" aria-hidden="true">
+        <svg class="art" viewBox="0 0 520 380" focusable="false">
           <defs>
-            <linearGradient id="orbit" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
-              <stop stop-color="#52ffe0" stop-opacity=".75"/>
-              <stop offset="1" stop-color="#4883ff" stop-opacity=".17"/>
+            <linearGradient id="rice-paper" x2="0" y2="1" gradientUnits="objectBoundingBox">
+              <stop stop-color="#f9e7c8"/>
+              <stop offset="1" stop-color="#e7c694"/>
             </linearGradient>
-            <radialGradient id="glow">
-              <stop stop-color="#164a78" stop-opacity=".85"/>
-              <stop offset="1" stop-color="#070d17" stop-opacity="0"/>
-            </radialGradient>
           </defs>
-          <ellipse cx="240" cy="198" rx="216" ry="182" fill="url(#glow)"/>
-          <g class="orbit" fill="none" stroke="url(#orbit)">
-            <circle cx="240" cy="198" r="146" stroke-dasharray="2 7"/>
-            <circle cx="240" cy="198" r="124"/>
-            <circle cx="240" cy="198" r="94" opacity=".45"/>
-            <ellipse cx="240" cy="198" rx="184" ry="61" transform="rotate(-31 240 198)"/>
-            <ellipse cx="240" cy="198" rx="184" ry="61" transform="rotate(31 240 198)" opacity=".56"/>
-            <path d="M240 28v340M70 198h340" opacity=".22"/>
+          <rect width="520" height="380" fill="url(#rice-paper)"/>
+          <circle cx="342" cy="106" r="46" fill="#ab4733"/>
+          <path d="M0 236Q58 204 107 154T194 150Q219 185 239 181T314 157Q357 163 377 195T520 224V380H0Z" fill="#ba8866"/>
+          <path d="M0 265Q69 238 134 183T219 184Q250 223 289 218T372 192Q412 192 443 234T520 259V380H0Z" fill="#875c49"/>
+          <path d="M0 288Q73 309 143 250T248 251Q283 282 332 256T423 246Q461 268 520 275V380H0Z" fill="#624337"/>
+          <path d="M0 301Q90 325 174 287T316 282Q397 311 520 284V380H0Z" fill="#edd2a9"/>
+          <g fill="none" stroke="#a27956" stroke-width="1" opacity=".7">
+            <path d="M18 320Q105 334 174 311T311 305Q400 326 500 303"/>
+            <path d="M116 346Q176 346 231 331T348 328Q396 338 455 327"/>
+            <path d="M218 360Q267 348 322 351T405 351"/>
           </g>
-          <circle cx="361" cy="114" r="6" fill="#52ffe0"/>
-          <circle cx="124" cy="279" r="4" fill="#a7ce88"/>
-          <circle cx="286" cy="336" r="3" fill="#75968a"/>
-          <path d="M108 85v18m-9-9h18m261 189v14m-7-7h14" stroke="#afccad" opacity=".75"/>
-          <text x="240" y="217" fill="#f4f4ed" text-anchor="middle" font-size="56" font-weight="650" letter-spacing="-3">ZYF</text>
+          <g fill="#503529">
+            <path d="M0 309Q41 303 94 320L0 340Z"/>
+            <path d="M38 320Q38 277 51 244Q43 282 48 319Z"/>
+            <path d="M42 275Q18 252 13 257Q27 257 42 281ZM46 265Q63 245 78 249Q64 250 45 272Z"/>
+            <path d="M45 284Q67 267 88 271Q63 275 45 290Z"/>
+          </g>
+          <g fill="none" stroke="#76503b" stroke-width="1.5" stroke-linecap="round">
+            <path d="M187 100q7-6 14 0q7-6 14 0M224 82q5-4 10 0q5-4 10 0"/>
+          </g>
+          <g transform="translate(440 43) rotate(4)">
+            <rect width="40" height="40" rx="2" fill="#96382a"/>
+            <rect x="4" y="4" width="32" height="32" fill="none" stroke="#f8e8c9"/>
+            <text x="20" y="27" fill="#f8e8c9" text-anchor="middle" font-size="19" style="font-family:var(--serif)">赵</text>
+          </g>
         </svg>
       </figure>
     </section>
     <section class="intro" id="intro" aria-labelledby="intro-title">
-      <p class="eyebrow" lang="en">VIDEO / 02</p>
+      <p class="eyebrow">贰 · 两段影像</p>
       <h2 id="intro-title">视频里的我</h2>
       <p class="intro-copy">用两段短片认识我，也看看我开的茶室。</p>
       <div class="films">
@@ -164,7 +150,7 @@
             <a href="media/intro-01.mp4">下载这段自我介绍</a>
           </video>
           <div class="film-info">
-            <span class="clip" aria-hidden="true">01 /</span>
+            <span class="clip" aria-hidden="true">壹</span>
             <h3 id="film-01">认识赵宇凡</h3>
             <span>0:42</span>
           </div>
@@ -175,7 +161,7 @@
             <a href="media/intro-02.mp4">下载这段自我介绍</a>
           </video>
           <div class="film-info">
-            <span class="clip" aria-hidden="true">02 /</span>
+            <span class="clip" aria-hidden="true">贰</span>
             <h3 id="film-02">我的茶室</h3>
             <span>0:35</span>
           </div>
