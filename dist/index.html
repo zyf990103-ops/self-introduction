@@ -8,11 +8,11 @@
   <style>
     :root {
       color-scheme: light;
-      --paper: #f8eddb;
-      --ink: #39251e;
-      --muted: #73564a;
-      --line: #c5a37c;
-      --red: #96382a;
+      --paper: #fffaf2;
+      --ink: #37251f;
+      --muted: #725043;
+      --line: #edc6ad;
+      --red: #b94132;
       --serif: "Songti SC", "Noto Serif CJK SC", "SimSun", "STSong", serif;
       background: var(--paper);
       color: var(--ink);
@@ -21,9 +21,9 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      border-top: 5px solid var(--red);
-      background: radial-gradient(ellipse at 79% 22%, #e4b77d66, transparent 52%),
-        repeating-linear-gradient(8deg, #9a5b2508 0 1px, transparent 1px 5px);
+      border-top: 4px solid #f18468;
+      background: radial-gradient(ellipse at 79% 22%, #ffcb8960, transparent 52%),
+        linear-gradient(180deg, #fffdf9 10%, transparent 68%);
     }
     a { color: inherit; text-decoration: none; }
     :focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
@@ -34,7 +34,7 @@
     .brand { font: 700 19px var(--serif); }
     .brand-mark {
       display: grid; place-items: center; width: 34px; height: 34px;
-      background: var(--red); color: #fff2dd; outline: 1px solid #fff2dd;
+      background: var(--red); color: #fff8ed; outline: 1px solid #fff8ed;
       outline-offset: -4px; transform: rotate(-5deg);
     }
     .top nav { flex-wrap: wrap; justify-content: flex-end; }
@@ -52,22 +52,22 @@
     .roman { margin: 18px 0 0; font: 12px Georgia, serif; letter-spacing: .28em; color: var(--muted); }
     .call {
       display: inline-flex; align-items: center; gap: 18px; min-height: 46px;
-      padding: 0 18px; background: var(--red); color: #fff4e5;
+      padding: 0 18px; border-radius: 6px; background: var(--red); color: #fffaf4;
       font-size: 14px; font-weight: 700;
     }
-    .call:hover { background: #79271d; }
+    .call:hover { background: #a33025; }
     .hero-action { margin-top: 28px; }
     .scroll {
-      margin: 0; min-width: 0; padding: 8px; border: 1px solid #ad8157;
-      background: #e9d0a9; box-shadow: 0 15px 32px #61371524;
+      margin: 0; min-width: 0; padding: 8px; border-radius: 14px; border: 1px solid #f2c5a8;
+      background: #fff3e2; box-shadow: 0 15px 32px #b7482719;
     }
-    .art { width: 100%; height: auto; display: block; border: 1px solid #bb926c; }
-    .intro { padding-block: 32px 56px; border-top: 3px double var(--line); }
+    .art { width: 100%; height: auto; display: block; border: 1px solid #f6d6be; border-radius: 8px; }
+    .intro { padding-block: 32px 56px; border-top: 1px solid var(--line); }
     .intro h2 { margin: 12px 0 8px; font-size: clamp(32px, 5vw, 52px); }
     .intro-copy { margin: 0 0 24px; color: var(--muted); line-height: 1.7; }
     .films { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-    .film { min-width: 0; border: 1px solid var(--line); background: #fcf3e4; }
-    .film video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #39251e; }
+    .film { min-width: 0; overflow: hidden; border-radius: 10px; border: 1px solid var(--line); background: #fffdf8; }
+    .film video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #37251f; }
     .film video:focus-visible { outline-offset: -4px; }
     .film-info { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
     .film-info h3 { flex: 1; margin: 0; font-size: 17px; }
@@ -75,7 +75,7 @@
     .film-info .clip { color: var(--red); font-family: var(--serif); }
     .contact {
       display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-      gap: 18px; padding: 24px; border: 1px solid var(--line); background: #f2dec0;
+      gap: 18px; padding: 24px; border: 1px solid var(--line); border-radius: 10px; background: #ffedda;
     }
     .contact h2 { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
     .number { font: clamp(24px, 4vw, 36px) Georgia, serif; }
@@ -107,34 +107,35 @@
         <svg class="art" viewBox="0 0 520 380" focusable="false">
           <defs>
             <linearGradient id="rice-paper" x2="0" y2="1" gradientUnits="objectBoundingBox">
-              <stop stop-color="#f9e7c8"/>
-              <stop offset="1" stop-color="#e7c694"/>
+              <stop stop-color="#fff3d9"/>
+              <stop offset="1" stop-color="#ffe2b8"/>
             </linearGradient>
           </defs>
           <rect width="520" height="380" fill="url(#rice-paper)"/>
-          <circle cx="342" cy="106" r="46" fill="#ab4733"/>
-          <path d="M0 236Q58 204 107 154T194 150Q219 185 239 181T314 157Q357 163 377 195T520 224V380H0Z" fill="#ba8866"/>
-          <path d="M0 265Q69 238 134 183T219 184Q250 223 289 218T372 192Q412 192 443 234T520 259V380H0Z" fill="#875c49"/>
-          <path d="M0 288Q73 309 143 250T248 251Q283 282 332 256T423 246Q461 268 520 275V380H0Z" fill="#624337"/>
-          <path d="M0 301Q90 325 174 287T316 282Q397 311 520 284V380H0Z" fill="#edd2a9"/>
-          <g fill="none" stroke="#a27956" stroke-width="1" opacity=".7">
+          <circle cx="342" cy="106" r="60" fill="#ffe5b9"/>
+          <circle cx="342" cy="106" r="43" fill="#ef7355"/>
+          <path d="M0 236Q58 204 107 154T194 150Q219 185 239 181T314 157Q357 163 377 195T520 224V380H0Z" fill="#ffd08c"/>
+          <path d="M0 265Q69 238 134 183T219 184Q250 223 289 218T372 192Q412 192 443 234T520 259V380H0Z" fill="#f4ab7d"/>
+          <path d="M0 288Q73 309 143 250T248 251Q283 282 332 256T423 246Q461 268 520 275V380H0Z" fill="#df816b"/>
+          <path d="M0 301Q90 325 174 287T316 282Q397 311 520 284V380H0Z" fill="#fff0da"/>
+          <g fill="none" stroke="#d59573" stroke-width="1" opacity=".7">
             <path d="M18 320Q105 334 174 311T311 305Q400 326 500 303"/>
             <path d="M116 346Q176 346 231 331T348 328Q396 338 455 327"/>
             <path d="M218 360Q267 348 322 351T405 351"/>
           </g>
-          <g fill="#503529">
+          <g fill="#99554b">
             <path d="M0 309Q41 303 94 320L0 340Z"/>
             <path d="M38 320Q38 277 51 244Q43 282 48 319Z"/>
             <path d="M42 275Q18 252 13 257Q27 257 42 281ZM46 265Q63 245 78 249Q64 250 45 272Z"/>
             <path d="M45 284Q67 267 88 271Q63 275 45 290Z"/>
           </g>
-          <g fill="none" stroke="#76503b" stroke-width="1.5" stroke-linecap="round">
+          <g fill="none" stroke="#99554b" stroke-width="1.5" stroke-linecap="round">
             <path d="M187 100q7-6 14 0q7-6 14 0M224 82q5-4 10 0q5-4 10 0"/>
           </g>
           <g transform="translate(440 43) rotate(4)">
-            <rect width="40" height="40" rx="2" fill="#96382a"/>
-            <rect x="4" y="4" width="32" height="32" fill="none" stroke="#f8e8c9"/>
-            <text x="20" y="27" fill="#f8e8c9" text-anchor="middle" font-size="19" style="font-family:var(--serif)">赵</text>
+            <rect width="40" height="40" rx="2" fill="#b94132"/>
+            <rect x="4" y="4" width="32" height="32" fill="none" stroke="#fff6eb"/>
+            <text x="20" y="27" fill="#fff6eb" text-anchor="middle" font-size="19" style="font-family:var(--serif)">赵</text>
           </g>
         </svg>
       </figure>
