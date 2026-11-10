@@ -1,0 +1,85 @@
+网页设计关键词｜50 张参考图
+
+先指出截图里的做法，再说它为什么有用。
+
+Extrafazant
+https://www.extrafazant.nl/
+01  字体对比 / Type contrast｜同一个标题里用粗无衬线和细衬线，两个字形反差大，重点一眼就能认出来。
+02  错位拼贴 / Offset collage｜照片轻微旋转、彼此压住，像贴在工作室墙上的随手记录。
+03  叠放作品卡 / Stacked cards｜几张有色边框的卡片叠在一起，让最前面的项目最先被看到。
+04  散点肖像 / Scattered portraits｜团队照片错开摆放，旁边配彩色名字贴纸，比整齐证件照更有个性。
+05  收尾行动按钮 / Closing call to action｜页尾用黑底、大字和一枚粉色按钮，把看完作品的人引向联系入口。
+
+ViV MGMT
+https://vivmgmt.com/
+06  巨型字标 / Oversized wordmark｜把品牌字标放大到能和照片同框，首页一眼就能认出是谁。
+07  边缘裁切 / Edge cropping｜两侧的人像只露出一部分，画面看起来像是还在向屏幕外延伸。
+08  摄影瀑布流 / Masonry gallery｜不同高度的照片并排排满，保留了照片各自的比例和观看节奏。
+09  摄影署名 / Image credits｜照片下方放小号姓名，作品仍然抢眼，想知道摄影师时也找得到。
+10  衬线栏目标题 / Serif section heading｜新闻区用醒目的衬线字和宽阔留白，把它和上面的摄影拼贴分开。
+
+Don’t Look Up
+https://www.dontlookup.app/
+11  手写大标题 / Hand-drawn lettering｜不规则的黑色大字像手绘游戏海报，一进来就能记住名字。
+12  仪表式教程 / UI-led tutorial｜把费率条放到教程卡片里，玩家可以先认出控件的长相。
+13  图解玩法 / Illustrated instructions｜用脚和人群的线稿解释游戏规则，先看懂关系，再读文字。
+14  颜色状态 / Color-coded states｜给人群的不同状态标上颜色，让玩家在画面里快速识别变化。
+15  逐步教学 / Step-by-step onboarding｜每张弹窗只讲一条规则，最后一张再给开始游戏的按钮。
+
+Guillaume Colombel
+https://guillaumecolombel.fr/
+16  居中雕塑 / Central sculpture｜把一件发光物体放在画面中央，访客一打开就知道要先看哪里。
+17  轮廓邻项 / Outlined neighbors｜当前项目用实心白字，旁边项目只画出文字轮廓，主次自然分开。
+18  地平线分层 / Layered horizon｜前景地面、远处山线和天空分成几层，二维屏幕也能看出远近。
+19  随项目换色 / Project color shift｜切换项目时背景从暖色变冷色，版式相同也能分辨自己换了哪一页。
+20  沉浸式简介 / Immersive about overlay｜简介沿用原来的地景和发光物，打开文字时仍能感觉自己留在同一个世界。
+
+Ascension · Pegassi
+https://ascension.pegassi.be/
+21  唱片套拟物 / Record-sleeve metaphor｜入口长得像一张半抽出的黑胶唱片，让音乐主题先通过动作被理解。
+22  动作反馈 / Action feedback｜点过封面后，白色唱片完整滑出来，访客能看见点击确实生效。
+23  暗底碎片影像 / Scattered footage｜用几块大小不同的影像和少量文字打破大面积黑底的安静感。
+24  弧形发光字 / Glowing curved lettering｜把发光标题弯成拱形，配上门洞画面，像一张演出海报。
+25  音序器网格 / Sequencer grid｜用行列格子呈现音轨与节拍，音乐的结构也能直接看见。
+
+Overworld Audio
+https://overworldaudio.com/
+26  标志地形化 / Logo as terrain｜把标志做成山谷的轮廓，品牌符号成了场景本身的一部分。
+27  蓝雾景深 / Atmospheric depth｜前景深、远处亮，层层蓝雾把山谷的距离拉开。
+28  空间光点 / Spatial markers｜几个发光点散在不同地形上，用画面位置提示哪里有内容可探索。
+29  叠层作品目录 / Overlay index｜项目列表浮在压暗的地图上，切到文字浏览时还能看见场景。
+30  暗底窄栏 / Narrow editorial column｜介绍文字收在一条窄栏里，旁边保留大块暗色，让阅读有明确的起点。
+
+Igloo Inc.
+https://www.igloo.inc/
+截图存档：https://rickcreates.com/r/2024-07-23-igloo-inc
+31  场景化首屏 / World-building hero｜用雪山、积雪和冰屋给品牌搭了一个完整场景，画面比一句品牌介绍更容易记住。
+32  冰封产品展示 / Object showcase｜把项目标志封进一块冰里，再用细线标注，让抽象项目变成看得见的展品。
+33  雾化转场 / Atmospheric transition｜滚动时冰雾盖过原来的场景，过渡也延续了冰雪主题。
+34  等宽项目档案 / Monospaced dossier｜项目说明用白色等宽字体，背后压暗冰块，看起来像可阅读的档案。
+35  指针粒子反馈 / Pointer-reactive particles｜鼠标经过时，企鹅的颗粒被拨散成雪点，指针动作有了可见的回应。
+
+Don’t Board Me
+https://dontboardme.com/
+36  游戏化入口 / Playful entry｜用一颗黄球邀请访客先做一个小动作，进入网页就有了参与感。
+37  吉祥物穿插 / Mascot layering｜白色狗狗卡在左右两边的大字之间，插画和文字像一张完整的海报。
+38  章节大字 / Chapter typography｜滚到服务区时先看到一行撑满宽度的大字，很容易知道进入了新章节。
+39  插画服务切换 / Illustrated service selector｜服务名称和宠物插画一起切换，文字和画面都能提示当前选项。
+40  故事卡流程 / Story-card process｜流程被画成带编号的故事卡，先后顺序更好记。
+
+MANA Yerba Mate
+https://en.manayerbamate.com/
+41  风味插画 / Flavor illustration｜把水果、花朵和叶子摆在饮料罐周围，第一眼就能猜到味道是什么风格。
+42  滚动旋转商品 / Scroll-driven product rotation｜向下滚动时罐身慢慢转到罐顶，像拿起商品换角度看。
+43  图像下拉菜单 / Visual mega menu｜导航展开后直接给不同口味的小图，找商品时能先认颜色和包装。
+44  色块转场 / Color wipe｜圆形黄色块盖过页面后再露出下一屏，切页动作和品牌配色融在一起。
+45  按口味分色 / Color-coded products｜产品卡的底色各自跟包装呼应，扫一眼就能区分几种口味。
+
+Persepolis Reimagined
+https://persepolis.getty.edu/
+截图存档：https://rickcreates.com/r/2022-06-01-persepolis-reimagined
+46  电影式开场 / Cinematic opening｜落日全景像电影片头，中央的大标题和圆形入口让访客知道从哪里开始。
+47  图文分栏 / Image–text split｜左边放文物纹样的细节，右边放解释，可以边看图边理解背景。
+48  地图式导航 / Map-based navigation｜把编号放在古城的立体地图上，访客可以按地点决定先看哪一站。
+49  古今对照 / Then-and-now comparison｜用花瓣形窗口露出遗址的另一种状态，把复原场景和现状放到同一视线里。
+50  博物馆分类 / Museum-style taxonomy｜先用大字列出文物类别，再用图卡陈列具体文物，像在浏览线上展柜。
