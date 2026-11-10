@@ -30,6 +30,14 @@ const viewer = document.querySelector('.work-viewer');
 const photo = viewer.querySelector('.viewer-photo');
 let activeWork = 0;
 let opener;
+let pendingPhoto;
+
+for (const work of works) {
+  const thumbnail = work.querySelector('img');
+  const usePreview = () => thumbnail.setAttribute('data-load-failed', '');
+  thumbnail.addEventListener('error', usePreview);
+  if (thumbnail.complete && !thumbnail.naturalWidth) usePreview();
+}
 
 function showWork(index) {
   activeWork = (index + works.length) % works.length;
@@ -38,7 +46,16 @@ function showWork(index) {
   viewer.querySelector('#work-title').textContent = title;
   viewer.querySelector('.viewer-count').textContent = (activeWork + 1) + ' / ' + works.length;
   photo.alt = title;
-  photo.src = work.href;
+  const thumbnail = work.querySelector('img');
+  const preview = work.style.getPropertyValue('--work-preview').trim();
+  photo.src = thumbnail.naturalWidth ? thumbnail.currentSrc : preview.slice(4, -1);
+
+  const original = new Image();
+  pendingPhoto = original;
+  original.onload = () => {
+    if (pendingPhoto === original) photo.src = original.src;
+  };
+  original.src = work.href;
 }
 
 if (typeof viewer.showModal === 'function') {
@@ -58,5 +75,8 @@ if (typeof viewer.showModal === 'function') {
     if (event.key === 'ArrowLeft') showWork(activeWork - 1);
     if (event.key === 'ArrowRight') showWork(activeWork + 1);
   });
-  viewer.addEventListener('close', () => opener.focus({ preventScroll: true }));
+  viewer.addEventListener('close', () => {
+    pendingPhoto = null;
+    opener.focus({ preventScroll: true });
+  });
 }
