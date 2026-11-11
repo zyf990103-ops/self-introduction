@@ -7,45 +7,15 @@
   <meta property="og:title" content="宇凡有饭｜一个人，也要好好吃饭">
   <meta property="og:image" content="https://zyf990103-ops.github.io/self-introduction/yufan-youfan/cover.jpg">
   <title>宇凡有饭｜一个人，也要好好吃饭</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      background: #201813;
-      color: #fff4df;
-      font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-    }
-    body { margin: 0; }
-    main {
-      box-sizing: border-box;
-      min-height: 100svh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 0.75rem;
-      padding: 0.9rem;
-    }
-    h1 {
-      margin: 0;
-      font-size: clamp(1.05rem, 4vw, 1.4rem);
-      text-align: center;
-    }
-    video {
-      display: block;
-      width: min(100%, 28rem, calc((100svh - 4.4rem) * 0.5625));
-      aspect-ratio: 9 / 16;
-      object-fit: contain;
-      background: #17110e;
-    }
-  </style>
+  <link rel="stylesheet" href="../video-page.css">
 </head>
 <body>
   <main>
     <h1>宇凡有饭｜一个人，也要好好吃饭</h1>
-    <video controls playsinline preload="metadata" poster="cover.jpg" aria-label="宇凡有饭的 60 秒自我介绍">
+    <video class="portrait-video" controls playsinline preload="metadata" poster="cover.jpg" aria-label="宇凡有饭的 60 秒自我介绍">
       <source src="video.mp4" type="video/mp4">
-      <a href="video.mp4">打开 MP4 视频</a>
     </video>
+    <p class="video-links"><a href="video.mp4">直接打开 MP4</a><a href="../">个人网站</a></p>
   </main>
 </body>
 </html>

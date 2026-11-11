@@ -33,6 +33,7 @@
     .film { padding: 12px; background: var(--sky); }
     .film:nth-child(2) { background: var(--pink); }
     .film h3 { margin: 5px 3px 12px; font: 800 clamp(20px, 2.2vw, 29px)/1.1 var(--hand); }
+    .film-file { display: inline-block; margin: 8px 3px 0; text-decoration: underline; text-underline-offset: 0.2em; }
     video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #231f20; }
     .contact { padding: 44px 20px 47px; text-align: center; background: var(--sky); }
     .contact p { margin: 14px 0 12px; }
@@ -160,15 +161,15 @@
           <h3>我和多多</h3>
           <video controls playsinline preload="none" poster="media/intro-01.webp" aria-label="我和多多">
             <source src="media/intro-01.mp4" type="video/mp4">
-            <a href="media/intro-01.mp4">打开第一段视频</a>
           </video>
+          <a class="film-file" href="media/intro-01.mp4">直接打开 MP4</a>
         </article>
         <article class="film" id="tea" data-reveal style="--delay:120ms">
           <h3>我的茶室</h3>
           <video controls playsinline preload="none" poster="media/intro-02.webp" aria-label="我的茶室">
             <source src="media/intro-02.mp4" type="video/mp4">
-            <a href="media/intro-02.mp4">打开第二段视频</a>
           </video>
+          <a class="film-file" href="media/intro-02.mp4">直接打开 MP4</a>
         </article>
       </div>
     </section>
