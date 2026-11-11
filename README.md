@@ -12,6 +12,8 @@
 
 | 内容 | 可以看到什么 |
 | --- | --- |
+| [宇凡有饭 · 60 秒自我介绍](https://zyf990103-ops.github.io/self-introduction/yufan-youfan/) | 认识阿凡和小狗多多。 |
+| [30 秒个人网站宣传片](https://zyf990103-ops.github.io/self-introduction/website-video/) | 看个人网站和紫砂刻绘作品。 |
 | [我和多多](https://zyf990103-ops.github.io/self-introduction/#duoduo) | 一段关于我和小狗多多的日常视频。 |
 | [我的茶室](https://zyf990103-ops.github.io/self-introduction/#tea) | 一段自我介绍视频，带你看看我的茶室。 |
 | [我的紫砂刻绘](https://zyf990103-ops.github.io/self-introduction/#works) | 12 张作品照片，分为「花草入器」「泥上有趣」「方寸之间」三个小展章。点开照片可以看刻绘细节。 |
