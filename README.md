@@ -12,6 +12,7 @@
 
 | 内容 | 可以看到什么 |
 | --- | --- |
+| [异地恋能说见就见吗？](https://zyf990103-ops.github.io/self-introduction/night-talk-long-distance/) | 一次情侣夜谈，从初见聊到他连夜赶来的那晚。 |
 | [宇凡有饭 · 60 秒自我介绍](https://zyf990103-ops.github.io/self-introduction/yufan-youfan/) | 认识阿凡和小狗多多。 |
 | [30 秒个人网站宣传片](https://zyf990103-ops.github.io/self-introduction/website-video/) | 看个人网站和紫砂刻绘作品。 |
 | [我和多多](https://zyf990103-ops.github.io/self-introduction/#duoduo) | 一段关于我和小狗多多的日常视频。 |
